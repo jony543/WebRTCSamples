@@ -22,6 +22,7 @@ button.onclick = function() {
 };
 
 const constraints = {
+  facingMode: { ideal: "environment" },
   audio: false,
   video: true
 };
